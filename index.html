@@ -9,7 +9,8 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="owl.carousel.min.css">
+    <link rel="stylesheet" href="owl.theme.default.min.css">  
   <title>bootstrap</title>
 </head>
 
@@ -40,7 +41,7 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="#">奧德賽</a>
               <a class="dropdown-item" href="#">起源</a>
-              <a class="dropdown-item" href="#">大革命</a>                                                                                                                                                                                                                               
+              <a class="dropdown-item" href="#">大革命</a>
             </div>
           </li>
         </ul>
@@ -122,6 +123,37 @@
       </div>
     </div>
   </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12 col-md-4 col-lg-3">TITLE</div>
+      <div class="col-sm-12 col-md-4 col-lg-3">TITLE</div>
+      <div class="col-sm-12 col-md-4 col-lg-3">TITLE</div>
+      <div class="col-sm-12 col-md-4 col-lg-3">TITLE</div>
+      <div class="col-sm-12 col-md-4 col-lg-3">TITLE</div>
+      <div class="col-sm-12 col-md-4 col-lg-3">TITLE</div>
+      <div class="col-sm-12 col-md-4 col-lg-3">TITLE</div>
+      <div class="col-sm-12 col-md-4 col-lg-3">TITLE</div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="owl-carousel">
+          <div> <img src="https://fakeimg.pl/250x100/666666/"> </div>
+          <div> <img src="https://fakeimg.pl/250x100/666666/"> </div>
+          <div> <img src="https://fakeimg.pl/250x100/666666/"> </div>
+          <div> <img src="https://fakeimg.pl/250x100/666666/"> </div>
+          <div> <img src="https://fakeimg.pl/250x100/666666/"> </div>
+          <div> <img src="https://fakeimg.pl/250x100/666666/"> </div>
+          <div> <img src="https://fakeimg.pl/250x100/666666/"> </div>
+          <div> <img src="https://fakeimg.pl/250x100/666666/"> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -133,6 +165,20 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+</body>
+
+<!-- OWL -->
+<script src="owlcarousel/owl.carousel.min.js"></script>
+<script src="owl.carousel.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $(".owl-carousel").owlCarousel({
+      items:6,
+      loop:true,
+      margin:10,
+    });
+  });
+</script>
 </body>
 
 </html>
